@@ -24,3 +24,14 @@ if query:
     res = llm.invoke(query)
     sr.chat_message("ai").markdown(res.content)
     sr.session_state.messages.append({"role":"ai", "content":res.content})
+
+
+# while True:
+#     query = input("User: ")
+
+#     if query.lower() in ["quit","exit","!q"]:
+#         print("goodbye 😒")
+#         break
+
+#     result = llm.invoke(query)
+#     print("AI: ", result.content)
