@@ -1,7 +1,9 @@
 langchain
-langchain-core 
-langchain-openai 
+langchain-core
+langchain-openai
 langchain-google-genai
 langchain-groq
 dotenv
-streamlit 
+streamlit
+langchain-mistralai
+langchain_nvidia_ai_endpoints
